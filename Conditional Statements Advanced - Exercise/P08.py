@@ -29,11 +29,7 @@ if total_arrive_minutes != total_exam_minutes:
             else:
                 print(f"{final_hour}:{final_minute:02d} hours after the start")
         case "early":
-            if arrive_hour == exam_hour or :
+            if arrive_hour == exam_hour:
                 print(f"{final_minute:02d} minutes before the start")
             else:
                 print(f"{final_hour}:{final_minute:02d} hours before the start")
-
-
-
-
